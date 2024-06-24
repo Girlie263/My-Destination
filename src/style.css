@@ -1,0 +1,113 @@
+body{
+    background-image: url("../images/Sunset\ departure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.booking-app{
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 0 auto;
+    padding: 30px;
+    padding-left: 60px;
+    border-radius: 10px;
+
+
+h1  {
+    font-size: 40px;
+    }
+}
+.departure-input{
+    background-color: aliceblue;
+    border: none;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.arrival-input{
+    background-color: aliceblue;
+    border: none;
+    max-width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+ button{
+    padding: 14px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    width: 30%;
+    margin-top: 25px;
+    color: rgb(103, 102, 102);
+    
+}
+
+.departure-date{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 1px;
+
+}
+
+.return-date{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 18px;
+    font-size: 18px;
+}
+
+.search-button{
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: rgb(104, 103, 103);
+    background-color: aliceblue;
+}
+
+p{
+    font-size: 19px;
+}
+
+footer{
+    font-size: 17px;
+    padding-top: 15px;
+}
+
+.name{
+    border: none;
+    padding: 10px;
+    max-width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.lastname{
+    border: none;
+    padding: 10px;
+    max-width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.passport-number{
+    border: none;
+    padding: 10px;
+    max-width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.age{
+    border: none;
+    padding: 10px;
+    max-width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+}

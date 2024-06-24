@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
     <title>My Destination</title>
 </head>
 <body>
-    <h1>Start Booking now</h1>
-    <form >
-        <input type="text" placeholder="Departure Airport">
-        <input type="text" placeholder="Arrival Airport">
-        <input type="submit" value="search for flight">
+    <div class="booking-app">
+    <form>
+        <input type="text" placeholder="Departure Airport" required class="departure-input">
+        <input type="text" placeholder="Arrival Airport" required class="arrival-input">
+        <input type="submit" value="search for flight" class="search-button">
     </form>
 
     <h1>Indonesia</h1>
-    <p>Current Time:9:53:33pm</p>
+    <p class="current-time">Current Time <br />9:53:33pm</p>
 
     <p>Departure</p>
-    <input type="datetime-local" name="" id="">
+    <input type="datetime-local" class="departure-date">
 
 
     <p>Return</p>
-    <input type="datetime-local" name="" id="">
+    <input type="datetime-local" class="return-date">
 
     <p>Personal Details</p>
-    <hr />
-
     <div>
         <form>
-            <input type="text" placeholder="First Name">
-            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="First Name" required class="name">
+            <input type="text" placeholder="Last Name" required class="lastname">
         </form>
         <form >
-            <input type="text" placeholder="Passport Number">
-            <input type="text" placeholder="Age">
+            <input type="text" placeholder="Passport Number" class="passport-number">
+            <input type="text" placeholder="Age" class="age">
         </form>
     </div>
 
+    <div>
     <button>Book</button>
     <button>Clear Form</button>
+    </div>
 
     <footer>
         This project was coded by <a href="https://github.com">Girlie263</a> it's on  <a href="https://github.com/Girlie263/My-Destination">Github</a> and <a href="https://my-destination.netlify.app/">Netlify</a>
     </footer>
+    </div>
 
     <script src="src/script.js"></script>
 </body>
