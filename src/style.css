@@ -111,3 +111,11 @@ footer{
     font-size: 16px;
     border-radius: 10px;
 }
+.current-time{
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    margin-top: 40px;
+    margin-right: 40px;
+}

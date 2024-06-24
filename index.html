@@ -8,14 +8,16 @@
 </head>
 <body>
     <div class="booking-app">
-    <form>
-        <input type="text" placeholder="Departure Airport" required class="departure-input">
-        <input type="text" placeholder="Arrival Airport" required class="arrival-input">
+    <form id="search-form">
+        <input type="text" placeholder="Departure Airport" required class="departure-input" id="departure-input">
+        <input type="text" placeholder="Arrival Airport" required class="arrival-input" id="arrival-input">
         <input type="submit" value="search for flight" class="search-button">
     </form>
 
-    <h1>Indonesia</h1>
-    <p class="current-time">Current Time <br />9:53:33pm</p>
+    <div class="current-time">
+    <h1 id="country">Indonesia</h1>
+    <p class="time">Current Time: <br />9:53:33pm</p>
+    </div>
 
     <p>Departure</p>
     <input type="datetime-local" class="departure-date">
@@ -45,7 +47,8 @@
         This project was coded by <a href="https://github.com">Girlie263</a> it's on  <a href="https://github.com/Girlie263/My-Destination">Github</a> and <a href="https://my-destination.netlify.app/">Netlify</a>
     </footer>
     </div>
+    </div>
 
     <script src="src/script.js"></script>
 </body>
-</html>
+</htm
