@@ -3,6 +3,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .booking-app{
     max-width: 600px;
     background-color: rgba(255, 255, 255, 0.75);
@@ -10,12 +11,14 @@ body{
     padding: 30px;
     padding-left: 60px;
     border-radius: 10px;
-
+}
 
 h1  {
     font-size: 40px;
     }
-}
+
+
+
 .departure-input{
     background-color: aliceblue;
     border: none;
