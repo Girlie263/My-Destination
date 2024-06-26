@@ -21,19 +21,26 @@ btnClear.addEventListener('click', ()=>{
 });
 
 let now = new Date;
-console.log(now);
+
+let h2 = document.querySelector("h2");
 
 let hour = now.getHours()
+
 let minute = now.getMinutes()
+if (minute < 10){
+  minute = `0${minute}`
+};
+
 let second = now.getSeconds()
+if (second < 10){
+  second = `0${second}`
+};
 
-let formattedTime =`Current Time:<br />${hour}:${minute}:${second}`;
-formattedTime.innerHTML = document.querySelector('.time')
-
-console.log(formattedTime);
+h2.innerHTML = `Current time: <br />
+${hour}:${minute}:${second}`
 
 function startBooking(){
-  alert("Booked");
+  alert("You are Booked for your next Destination😊");
 }
 
 
